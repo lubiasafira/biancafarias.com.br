@@ -1,0 +1,47 @@
+/* 
+Variáveis de cores
+ */
+
+:root {
+    --cor-fundo: #F2E3D5;
+    --cor-texto: #012E40;
+    --cor-titulo: #024959;
+    --cor-link: #026773;
+    --cor-hover: #3CA6A6;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+/* header, main, footer */
+
+
+header h1 {
+    color: var(--cor-titulo);
+    
+}
+
+h2 {
+    color: var(--cor-titulo);
+}
+
+h3 {
+    color: var(--cor-titulo);
+}
+
+/* Links */
+
+a {
+    color: var(--cor-link);
+}
+
+a:hover {
+    color: var(--cor-hover);
+}
+
+/* footer */
+footer {
+    color:var(--cor-texto)
+}
