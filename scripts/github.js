@@ -7,4 +7,4 @@ async function getReposList (){
     return response.json()
 }
 
-module.exports = getReposList
+export default getReposList

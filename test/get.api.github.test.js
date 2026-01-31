@@ -1,4 +1,4 @@
-const getReposList = require("../scripts/github.js")
+import getReposList from "../scripts/github.js"
 
 global.fetch = jest.fn()
 
