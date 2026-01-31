@@ -1,10 +1,10 @@
+async function getReposList (){
+   const response = await fetch("https://api.github.com/users/lubiasafira/repos")
 
-let reposList = {}
-fetch("https://api.github.com/users/lubiasafira/repos")
-    .then(function (res){
-        return res.json();
-    }).then(function (repos){
-        reposList = repos
-    })
+   if (!response.ok){
+        throw new Error(`Não foi possível conectar ao serviço: ${response.status}`)
+    }
+    return response.json()
+}
 
-module.exports = {reposList}
+module.exports = getReposList
