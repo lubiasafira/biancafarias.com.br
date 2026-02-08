@@ -1,0 +1,36 @@
+.cards-projects{
+    border-color: #1f6feb;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 0.1em;
+    padding: 1em;
+    margin: 1em;
+    width: 20em;
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.list-view-projects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    align-items: baseline;
+}
+
+.description-view{
+    font-size: 0.8em;
+}
+
+.demo-btn{
+    background-color: #29903b;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 0.5em;
+    border-color: #1a5a25;
+    border-width: 0.1em;
+}
